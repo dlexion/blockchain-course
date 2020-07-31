@@ -1,0 +1,35 @@
+=============== Oct 15, 2019 (+03) ===============
+11:36:01.656647 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:36:01.664644 db@open opening
+11:36:01.664644 version@stat F·[] S·0B[] Sc·[]
+11:36:01.667642 db@janitor F·2 G·0
+11:36:01.667642 db@open done T·2.998ms
+12:20:52.932381 db@close closing
+12:20:52.934380 db@close done T·1.9987ms
+=============== Oct 15, 2019 (+03) ===============
+16:11:29.490340 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:11:29.492340 version@stat F·[] S·0B[] Sc·[]
+16:11:29.492340 db@open opening
+16:11:29.492340 journal@recovery F·1
+16:11:29.493339 journal@recovery recovering @1
+16:11:29.538311 memdb@flush created L0@2 N·17419 S·339KiB "loc..seq,v22":"version,v1"
+16:11:29.538311 version@stat F·[1] S·339KiB[339KiB] Sc·[0.25]
+16:11:29.548422 db@janitor F·3 G·0
+16:11:29.548422 db@open done T·56.0815ms
+=============== Oct 15, 2019 (+03) ===============
+16:47:13.454750 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:47:13.455752 version@stat F·[1] S·339KiB[339KiB] Sc·[0.25]
+16:47:13.455752 db@open opening
+16:47:13.455752 journal@recovery F·1
+16:47:13.455752 journal@recovery recovering @3
+16:47:13.493729 memdb@flush created L0@5 N·12792 S·250KiB "loc..seq,v17449":"n:\xff..ong,v22475"
+16:47:13.494727 version@stat F·[2] S·590KiB[590KiB] Sc·[0.50]
+16:47:13.503722 db@janitor F·4 G·0
+16:47:13.503722 db@open done T·47.9699ms
+16:47:13.534208 table@compaction L0·2 -> L1·0 S·590KiB Q·30214
+16:47:13.558193 table@build created L1@8 N·8230 S·332KiB "loc..seq,v17449":"version,v1"
+16:47:13.558193 version@stat F·[0 1] S·332KiB[0B 332KiB] Sc·[0.00 0.00]
+16:47:13.560192 table@compaction committed F-1 S-258KiB Ke·0 D·21981 T·24.9851ms
+16:47:13.560192 table@remove removed @2
+17:27:31.439456 db@close closing
+17:27:31.450449 db@close done T·10.9935ms

@@ -1,0 +1,4 @@
+eth.getBalance("0xe068d92825d36febf55744b1c26fba49a800e290")
+eth.syncing
+eth.getBalance("0xe068d92825d36febf55744b1c26fba49a800e290")
+net.peerCount

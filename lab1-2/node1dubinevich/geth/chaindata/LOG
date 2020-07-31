@@ -1,0 +1,42 @@
+=============== Oct 15, 2019 (+03) ===============
+10:36:07.596663 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+10:36:07.601660 db@open opening
+10:36:07.603659 version@stat F·[] S·0B[] Sc·[]
+10:36:07.607657 db@janitor F·2 G·0
+10:36:07.607657 db@open done T·5.9973ms
+10:36:07.616650 db@close closing
+10:36:07.618649 db@close done T·1.999ms
+=============== Oct 15, 2019 (+03) ===============
+11:36:01.466766 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:36:01.467764 version@stat F·[] S·0B[] Sc·[]
+11:36:01.467764 db@open opening
+11:36:01.467764 journal@recovery F·1
+11:36:01.470763 journal@recovery recovering @1
+11:36:01.478762 memdb@flush created L0@2 N·10 S·556B "H5{..\x1b \xb9,v3":"r\x00\x00..\x1b \xb9,v5"
+11:36:01.481757 version@stat F·[1] S·556B[556B] Sc·[0.25]
+11:36:01.494750 db@janitor F·3 G·0
+11:36:01.494750 db@open done T·26.9859ms
+12:20:52.910400 db@close closing
+12:20:52.918393 db@close done T·9.9937ms
+=============== Oct 15, 2019 (+03) ===============
+16:11:29.315939 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:11:29.317938 version@stat F·[1] S·556B[556B] Sc·[0.25]
+16:11:29.317938 db@open opening
+16:11:29.317938 journal@recovery F·1
+16:11:29.320936 journal@recovery recovering @3
+16:11:29.326931 memdb@flush created L0@5 N·653 S·32KiB "\t(\x92..R\x8d\x98,v663":"\xe1*\xf0..\xe1\n\xd0,v658"
+16:11:29.329934 version@stat F·[2] S·33KiB[33KiB] Sc·[0.50]
+16:11:29.345919 db@janitor F·4 G·0
+16:11:29.345919 db@open done T·27.981ms
+=============== Oct 15, 2019 (+03) ===============
+16:47:13.265352 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:47:13.271351 version@stat F·[2] S·33KiB[33KiB] Sc·[0.50]
+16:47:13.271351 db@open opening
+16:47:13.272348 journal@recovery F·1
+16:47:13.274347 journal@recovery recovering @6
+16:47:13.285345 memdb@flush created L0@8 N·1 S·217B "Las..der,v666":"Las..der,v666"
+16:47:13.288340 version@stat F·[3] S·33KiB[33KiB] Sc·[0.75]
+16:47:13.303329 db@janitor F·5 G·0
+16:47:13.303329 db@open done T·31.9782ms
+17:27:31.418469 db@close closing
+17:27:31.424468 db@close done T·5.999ms
